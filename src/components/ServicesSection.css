@@ -1,0 +1,75 @@
+/* Background for entire section */
+#serviceResponce {
+  background-color: #f8f9fa; /* light gray background */
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+/* Long card background */
+.highlight-box {
+  background-color: #d9a54c;
+  padding: 80px 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Highlight text */
+.highlight-text {
+  font-size: 85px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px #000;
+  text-align: center;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .highlight-text {
+    font-size: 60px;
+  }
+}
+
+/* Responsive text */
+.responsive-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.responsive-subheading {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .responsive-heading {
+    font-size: 1.5rem;
+  }
+
+  .responsive-subheading {
+    font-size: 1rem;
+  }
+}
+
+/* Card layering */
+.stack-top {
+  z-index: 9;
+  position: relative;
+}
+
+/* Card overlap effect */
+.overlap-row {
+  margin-bottom: -100px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Bottom card container */
+.bottom-card-row {
+  z-index: 1;
+  position: relative;
+}

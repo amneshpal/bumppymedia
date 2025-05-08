@@ -1,0 +1,126 @@
+
+body{
+  background-color:  #FFF9EF;
+  
+}
+.hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 40px 0;
+}
+
+.central-image {
+  width: 500px;
+  height: auto;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.floating-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Desktop Positions */
+
+
+#top-left {
+  top:29%;
+  left: 15%;
+ height: 71%;
+ width: 70%;
+}
+
+.top-right {
+  top: 19%;
+  right: 21%;
+}
+
+.bottom-left {
+  bottom: 70%;
+  left: 22%;
+}
+
+.bottom-right {
+  bottom: 35%;
+  right: 10%;
+}
+
+/* Tablet View */
+@media (max-width: 992px) {
+  .central-image {
+    width: 500px;
+  }
+
+  .floating-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .top-left,
+  .bottom-left {
+    left: 20%;
+  }
+
+  .top-right{
+    right: 20%;
+  }
+  .bottom-right {
+    right: 5%;
+  }
+  #left{
+    margin-top: 2px;
+    padding-top: 53px;
+  
+   
+
+  }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+  .central-image {
+    width: 500px;
+  }
+
+  .floating-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .top-left{
+    top:26%;
+  }
+  .bottom-left {
+    left: 10%;
+  }
+
+  .top-right {
+    top: 19%;
+    right: 21%;
+  }
+  
+  .bottom-left {
+    bottom: 70%;
+    left: 22%;
+  }
+  
+  .bottom-right {
+    bottom: 35%;
+    right: 10%;
+  
+  }
+
+  #left{
+    margin-top: 2px;
+    padding-top: 53px;
+  
+   
+
+  }
+}

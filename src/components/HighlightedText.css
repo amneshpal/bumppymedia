@@ -1,0 +1,12 @@
+/* HighlightedText.css */
+@font-face {
+    font-family: 'Halyard Display';
+    src: url('/fonts/HalyardDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .text-block {
+    font-family: 'Halyard Display', sans-serif;
+  }
+  

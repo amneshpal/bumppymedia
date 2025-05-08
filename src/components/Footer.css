@@ -1,0 +1,21 @@
+#footertext{
+    margin-left: 7%;
+}
+#font{
+    font-size: 14px;
+
+}
+#fw{
+    font-size: 34px;
+}
+
+@media (max-width: 992px) {
+    #footertext{
+        margin-left: 7%;
+    }
+} 
+
+    @media (max-width: 576px) {
+        #footertext{
+            margin-left: 7%;
+        }}
